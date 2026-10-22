@@ -1,0 +1,12 @@
+.hoptietkiem{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px dotted royalblue;
+    background-color: palevioletred;
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(145, 189, 58);
+    float: left;
+}

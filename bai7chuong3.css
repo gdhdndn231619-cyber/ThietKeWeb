@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color: azure;
+}
+
+.form-dangnhap{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px palevioletred;
+    min-height: 400px;
+}
+
+.form-dangnhap h2{
+    color: palevioletred;
+    text-shadow: 2px 2px 5px azure;
+}
+
+.form-dangnhap input{
+    color: deepskyblue;
+    background-color: azure;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+
+}
+
+.form-dangnhap input[type="text"],[type="password"]{
+    color: royalblue;
+    background-color: azure;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    height: 30px;
+    margin-top: 10px;
+    width: 350px;
+
+}
+.form-dangnhap input[type="submit"]{
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    font-weight: bold;
+}
+
+.form-dangnhap input[type="submit"]:hover{
+    background-color: deepskyblue;
+    border: 1px solid violet;
+    transition: ease 0.5s;
+}

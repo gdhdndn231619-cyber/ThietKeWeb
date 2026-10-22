@@ -1,0 +1,36 @@
+.menungang{
+    display: flex;
+    flex-direction: row;
+    background-color: palevioletred;
+    justify-content: space-around;
+    height: 30px;
+}
+
+.menuitem{
+    color: royalblue;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menungang a:hover{
+    background-color: blueviolet;
+    border-radius: 5px;
+    transition: ease 0.5s;
+}
+
+
+.menudoc{
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    justify-content: space-around;
+    padding: 5px;
+    height: 120px;
+}
+
+.menudoc a:hover{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    transition: ease 0.5s;
+}

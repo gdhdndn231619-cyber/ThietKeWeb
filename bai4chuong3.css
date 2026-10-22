@@ -1,0 +1,14 @@
+.luoi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; /*Khoảng cách*/ 
+    padding: 5px;
+    text-align: center;
+}
+
+.luotitem{
+    background-color: violet;
+    color: royalblue;
+    padding: 15px;
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-around;
+  background-color: palevioletred;
+  height: 50px;
+}
+
+.flex-item {
+  background-color: royalblue;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: palevioletred;
+    }
+
+.grid-item {
+    background-color: royalblue;
+    color: rgb(68, 44, 105);
+    margin: 10px;
+    padding: 20px;
+    height: 30px
+}
